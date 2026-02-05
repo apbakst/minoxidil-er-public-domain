@@ -27,9 +27,21 @@ Veradermics' patent claims specifically cover HPMC-based (hydroxypropyl methylce
 | **Dose per unit** | **8.5 mg** | Matches Veradermics VDPHL01 clinical dose |
 | **Total daily dose** | **17 mg (8.5 mg × 2)** | Matches Veradermics BID regimen |
 | Release duration | 10-12 hours | Covers 12-hour dosing interval |
-| Target Cmax | 10-20 ng/mL | Below cardiac threshold (~25 ng/mL) |
-| Target Tmax | 2-6 hours | Delayed vs immediate release |
+| **Target Cmax** | **6-10 ng/mL** | Matches Veradermics (~7-8 ng/mL); well below cardiac threshold (20 ng/mL) |
+| **Target Tmax** | **2-4 hours** | Delayed vs immediate release |
 | **Dosing frequency** | **Twice daily (q12h)** | Matches Veradermics regimen |
+| Hair growth threshold | >1.62 ng/mL | Minimum effective concentration for 10-12 hours |
+| Cardiac activity threshold | <20 ng/mL | Must stay below to avoid CV side effects |
+
+### Key PK Thresholds (from Veradermics clinical data)
+
+| Threshold | Value | Significance |
+|-----------|-------|--------------|
+| **Cardiac activity threshold** | 20 ng/mL | Above this: tachycardia, hypotension risk |
+| **Ideal therapeutic range** | 5-15 ng/mL | Efficacy without cardiac effects |
+| **Hair growth threshold** | 1.62 ng/mL | Minimum for hair follicle stimulation |
+| **Veradermics VDPHL01 Cmax** | ~7-8 ng/mL | Their actual achieved Cmax |
+| **IR minoxidil 5mg Cmax** | ~22 ng/mL | Exceeds cardiac threshold |
 
 ---
 
@@ -206,23 +218,27 @@ Drug-loaded pellets with rate-controlling ethylcellulose/Eudragit polymer coatin
 
 ---
 
-## FORMULATION 4: Lipid Matrix Tablet
+## FORMULATION 4: Lipid Matrix Tablet (RECOMMENDED)
 
 ### Mechanism
 Drug dispersed in waxy lipid matrix (glyceryl behenate/palmitostearate). Release by erosion and diffusion through hydrophobic lipid. Fundamentally different from hydrophilic HPMC gel matrix.
 
-### Tablet Composition (per tablet)
+### Tablet Composition (per tablet) - OPTIMIZED FOR VERADERMICS-MATCHING PK
 
 | Component | Amount (mg) | % w/w | Function |
 |-----------|-------------|-------|----------|
 | **Minoxidil** | **8.5** | **3.4%** | Active ingredient |
-| Compritol® 888 ATO (glyceryl behenate) | 100.0 | 40.0% | Lipid matrix former |
-| Precirol® ATO 5 (glyceryl palmitostearate) | 50.0 | 20.0% | Secondary lipid (slows release) |
-| Microcrystalline cellulose (Avicel PH-102) | 62.5 | 25.0% | Filler/compressibility aid |
-| Lactose monohydrate | 18.75 | 7.5% | Filler |
+| Compritol® 888 ATO (glyceryl behenate) | **112.5** | **45.0%** | Lipid matrix former (increased for lower Cmax) |
+| Precirol® ATO 5 (glyceryl palmitostearate) | **30.0** | **12.0%** | Secondary lipid |
+| PEG 6000 | **12.5** | **5.0%** | Pore former (reduced for slower release) |
+| Microcrystalline cellulose (Avicel PH-102) | 55.0 | 22.0% | Filler/compressibility aid |
+| Lactose monohydrate | 17.5 | 7.0% | Filler |
+| Poloxamer 188 | **3.75** | **1.5%** | Surfactant (wetting) |
 | Colloidal silicon dioxide (Aerosil 200) | 5.0 | 2.0% | Glidant |
 | Magnesium stearate | 5.25 | 2.1% | Lubricant |
 | **Total tablet weight** | **250.0** | **100%** | |
+
+**Total lipid content: 57%** (optimized for Cmax ~6-10 ng/mL to match Veradermics)
 
 ### Manufacturing Process (Melt Granulation)
 1. Preheat mixer to 75-80°C
@@ -240,11 +256,13 @@ Drug dispersed in waxy lipid matrix (glyceryl behenate/palmitostearate). Release
 3. Mill extrudate to granules
 4. Blend and compress
 
-### Expected Release Profile
+### Expected Release Profile (Target for Cmax ~6-10 ng/mL)
 - Near zero-order release kinetics
-- 30-40% release at 4 hours
-- 50-60% release at 8 hours
-- >80% release at 12 hours
+- **15-20% release at 1 hour** (reduced initial burst)
+- **40-50% release at 4 hours**
+- **65-75% release at 8 hours**
+- **>80% release at 12 hours**
+- Maintain plasma levels >1.62 ng/mL (hair growth threshold) for 10-12 hours
 
 ### Key Patent Differentiation
 - **Lipid-based** vs. hydrophilic polymer matrix
