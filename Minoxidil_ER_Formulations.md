@@ -25,11 +25,11 @@ Veradermics' patent claims specifically cover HPMC-based (hydroxypropyl methylce
 | Parameter | Target | Rationale |
 |-----------|--------|-----------|
 | **Dose per unit** | **8.5 mg** | Matches Veradermics VDPHL01 clinical dose |
-| Daily dose | 8.5 mg QD or 8.5 mg BID (17 mg/day) | Per Veradermics Phase 2/3 protocol |
-| Release duration | 10-14 hours | Extended exposure without peaks |
+| **Total daily dose** | **17 mg (8.5 mg × 2)** | Matches Veradermics BID regimen |
+| Release duration | 10-12 hours | Covers 12-hour dosing interval |
 | Target Cmax | 10-20 ng/mL | Below cardiac threshold (~25 ng/mL) |
 | Target Tmax | 2-6 hours | Delayed vs immediate release |
-| Dosing frequency | Once or twice daily | Patient convenience |
+| **Dosing frequency** | **Twice daily (q12h)** | Matches Veradermics regimen |
 
 ---
 
