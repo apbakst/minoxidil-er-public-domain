@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipid Matrix ER Minoxidil - Formulation Development Protocol</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 3px solid #1a73e8;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #185abc;
+            margin-top: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #1967d2;
+            margin-top: 25px;
+        }
+        h4 {
+            color: #4285f4;
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e8f0fe;
+            font-weight: bold;
+            color: #185abc;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .info-box {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-left: 4px solid #1a73e8;
+            margin: 20px 0;
+        }
+        .success-box {
+            background-color: #e6f4ea;
+            padding: 15px;
+            border-left: 4px solid #34a853;
+            margin: 20px 0;
+        }
+        .warning-box {
+            background-color: #fef7e0;
+            padding: 15px;
+            border-left: 4px solid #f9ab00;
+            margin: 20px 0;
+        }
+        .danger-box {
+            background-color: #fce8e6;
+            padding: 15px;
+            border-left: 4px solid #d93025;
+            margin: 20px 0;
+        }
+        .protocol-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+        code {
+            background-color: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .step-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .checkpoint {
+            background-color: #34a853;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Lipid Matrix Extended-Release Minoxidil</h1>
+<h2 style="border: none; margin-top: 0;">Formulation Development Protocol</h2>
+
+<p><strong>Document Version:</strong> 1.0</p>
+<p><strong>Date:</strong> February 5, 2026</p>
+<p><strong>Confidential - For Development Use Only</strong></p>
+
+<hr>
+
+<h2>1. Executive Summary</h2>
+
+<div class="info-box">
+    <p>This protocol describes the development of an extended-release oral minoxidil formulation using lipid matrix technology. The target product is an 8.5 mg tablet/capsule dosed twice daily (BID) for a total daily dose of 17 mg.</p>
+    <p><strong>Target indication:</strong> Hair loss (androgenetic alopecia) - prescribed off-label</p>
+    <p><strong>Release mechanism:</strong> Lipid matrix erosion</p>
+    <p><strong>Key advantage:</strong> Different mechanism from HPMC-based competitors (patent differentiation)</p>
+</div>
+
+<hr>
+
+<h2>2. Target Product Profile</h2>
+
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Target</th>
+        <th>Acceptable Range</th>
+    </tr>
+    <tr>
+        <td>Dosage form</td>
+        <td>Tablet or hard capsule</td>
+        <td>Either acceptable</td>
+    </tr>
+    <tr>
+        <td>Strength</td>
+        <td>8.5 mg minoxidil</td>
+        <td>8.5 mg ± 5%</td>
+    </tr>
+    <tr>
+        <td>Dosing regimen</td>
+        <td>One unit BID (every 12 hours)</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>Total daily dose</td>
+        <td>17 mg</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>Release profile</td>
+        <td>Extended release over 12 hours</td>
+        <td>See dissolution specs below</td>
+    </tr>
+    <tr>
+        <td>Target Cmax</td>
+        <td>8-15 ng/mL</td>
+        <td>5-20 ng/mL</td>
+    </tr>
+    <tr>
+        <td>Target Tmax</td>
+        <td>3-5 hours</td>
+        <td>2-6 hours</td>
+    </tr>
+    <tr>
+        <td>Food effect</td>
+        <td>Minimal (&lt;50% change in Cmax)</td>
+        <td>&lt;2-fold change acceptable</td>
+    </tr>
+    <tr>
+        <td>Shelf life target</td>
+        <td>24 months at 25°C/60% RH</td>
+        <td>Minimum 18 months</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>3. Formulation Composition</h2>
+
+<h3>3.1 Optimized Formula (Starting Point)</h3>
+
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Amount (mg)</th>
+        <th>% w/w</th>
+        <th>Function</th>
+        <th>Supplier Example</th>
+    </tr>
+    <tr>
+        <td><strong>Minoxidil USP</strong></td>
+        <td><strong>8.5</strong></td>
+        <td><strong>3.4%</strong></td>
+        <td>Active pharmaceutical ingredient</td>
+        <td>Various API suppliers</td>
+    </tr>
+    <tr>
+        <td>Compritol 888 ATO</td>
+        <td>100.0</td>
+        <td>40.0%</td>
+        <td>Primary lipid matrix former</td>
+        <td>Gattefossé</td>
+    </tr>
+    <tr>
+        <td>Precirol ATO 5</td>
+        <td>35.0</td>
+        <td>14.0%</td>
+        <td>Secondary lipid (modulates release)</td>
+        <td>Gattefossé</td>
+    </tr>
+    <tr>
+        <td>PEG 6000</td>
+        <td>20.0</td>
+        <td>8.0%</td>
+        <td>Pore former (ensures complete release)</td>
+        <td>BASF, Dow</td>
+    </tr>
+    <tr>
+        <td>Microcrystalline cellulose (PH-101)</td>
+        <td>50.0</td>
+        <td>20.0%</td>
+        <td>Filler, aids water uptake</td>
+        <td>FMC (Avicel)</td>
+    </tr>
+    <tr>
+        <td>Lactose monohydrate</td>
+        <td>20.0</td>
+        <td>8.0%</td>
+        <td>Hydrophilic filler, pore formation</td>
+        <td>DFE Pharma</td>
+    </tr>
+    <tr>
+        <td>Poloxamer 188</td>
+        <td>5.0</td>
+        <td>2.0%</td>
+        <td>Surfactant (improves wetting)</td>
+        <td>BASF (Kolliphor P188)</td>
+    </tr>
+    <tr>
+        <td>Colloidal silicon dioxide</td>
+        <td>5.0</td>
+        <td>2.0%</td>
+        <td>Glidant</td>
+        <td>Evonik (Aerosil 200)</td>
+    </tr>
+    <tr>
+        <td>Magnesium stearate</td>
+        <td>6.5</td>
+        <td>2.6%</td>
+        <td>Lubricant</td>
+        <td>Peter Greven</td>
+    </tr>
+    <tr style="font-weight: bold; background-color: #e6f4ea;">
+        <td>Total</td>
+        <td>250.0</td>
+        <td>100%</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<h3>3.2 Excipient Specifications</h3>
+
+<table>
+    <tr>
+        <th>Excipient</th>
+        <th>Grade</th>
+        <th>Key Specifications</th>
+    </tr>
+    <tr>
+        <td>Compritol 888 ATO</td>
+        <td>PhEur/NF</td>
+        <td>Melting point: 69-74°C; Glyceryl behenate</td>
+    </tr>
+    <tr>
+        <td>Precirol ATO 5</td>
+        <td>PhEur/NF</td>
+        <td>Melting point: 53-57°C; Glyceryl palmitostearate</td>
+    </tr>
+    <tr>
+        <td>PEG 6000</td>
+        <td>PhEur/NF</td>
+        <td>MW: 5000-7000; Melting point: 55-63°C</td>
+    </tr>
+    <tr>
+        <td>MCC PH-101</td>
+        <td>NF</td>
+        <td>Particle size: 50 μm nominal</td>
+    </tr>
+    <tr>
+        <td>Poloxamer 188</td>
+        <td>NF</td>
+        <td>MW: ~8400; HLB: 29</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>4. Manufacturing Process</h2>
+
+<h3>4.1 Process Overview: Melt Granulation</h3>
+
+<div class="protocol-box">
+    <p><strong>Method:</strong> Hot melt granulation followed by direct compression (tablets) or capsule filling</p>
+    <p><strong>Scale:</strong> Protocol written for 100-unit batch (25g); scale as needed</p>
+    <p><strong>Equipment needed:</strong></p>
+    <ul>
+        <li>Jacketed mixing vessel or hot plate with temperature control</li>
+        <li>Overhead stirrer or planetary mixer</li>
+        <li>Calibrated thermometer or temperature probe</li>
+        <li>Analytical balance (0.01g precision minimum)</li>
+        <li>Granulator/mill (oscillating or conical)</li>
+        <li>Tablet press or capsule filling machine</li>
+    </ul>
+</div>
+
+<h3>4.2 Step-by-Step Manufacturing Protocol</h3>
+
+<h4><span class="step-number">1</span> Pre-Weigh All Components</h4>
+
+<div class="protocol-box">
+    <p>Weigh all components according to batch formula. Record actual weights.</p>
+    <table>
+        <tr>
+            <th>Component</th>
+            <th>Target (per 100 units)</th>
+            <th>Actual Weight</th>
+        </tr>
+        <tr><td>Minoxidil</td><td>850 mg</td><td>_____ mg</td></tr>
+        <tr><td>Compritol 888 ATO</td><td>10,000 mg</td><td>_____ mg</td></tr>
+        <tr><td>Precirol ATO 5</td><td>3,500 mg</td><td>_____ mg</td></tr>
+        <tr><td>PEG 6000</td><td>2,000 mg</td><td>_____ mg</td></tr>
+        <tr><td>MCC PH-101</td><td>5,000 mg</td><td>_____ mg</td></tr>
+        <tr><td>Lactose monohydrate</td><td>2,000 mg</td><td>_____ mg</td></tr>
+        <tr><td>Poloxamer 188</td><td>500 mg</td><td>_____ mg</td></tr>
+        <tr><td>Colloidal silicon dioxide</td><td>500 mg</td><td>_____ mg</td></tr>
+        <tr><td>Magnesium stearate</td><td>650 mg</td><td>_____ mg</td></tr>
+    </table>
+</div>
+
+<h4><span class="step-number">2</span> Prepare Lipid Melt</h4>
+
+<div class="protocol-box">
+    <ol>
+        <li>Add Compritol 888 ATO and Precirol ATO 5 to jacketed vessel</li>
+        <li>Heat to <strong>75-80°C</strong> with gentle stirring (50 rpm)</li>
+        <li>Once melted, add PEG 6000 and Poloxamer 188</li>
+        <li>Continue stirring until homogeneous melt (clear to slightly hazy)</li>
+        <li>Maintain temperature at <strong>75 ± 2°C</strong></li>
+    </ol>
+    <p><span class="checkpoint">CHECKPOINT</span> Melt should be uniform with no solid particles visible</p>
+</div>
+
+<div class="warning-box">
+    <strong>Critical Parameters:</strong>
+    <ul>
+        <li>Do NOT exceed 85°C - lipid degradation may occur</li>
+        <li>Do NOT allow temperature to drop below 70°C during drug addition</li>
+        <li>Mixing speed should be gentle to avoid air incorporation</li>
+    </ul>
+</div>
+
+<h4><span class="step-number">3</span> Add Active Ingredient</h4>
+
+<div class="protocol-box">
+    <ol>
+        <li>Pre-blend minoxidil with a small portion of MCC (approximately 500 mg MCC) in a separate container</li>
+        <li>Slowly add the minoxidil/MCC blend to the lipid melt while stirring</li>
+        <li>Mix for <strong>5 minutes</strong> at 75°C to ensure uniform dispersion</li>
+        <li>Scrape vessel walls to ensure no drug adheres to sides</li>
+    </ol>
+    <p><span class="checkpoint">CHECKPOINT</span> No visible drug aggregates; uniform dispersion</p>
+</div>
+
+<h4><span class="step-number">4</span> Add Remaining Fillers</h4>
+
+<div class="protocol-box">
+    <ol>
+        <li>With continued stirring, add remaining MCC and lactose monohydrate</li>
+        <li>Mix for <strong>3-5 minutes</strong> until uniformly distributed</li>
+        <li>Mass should become thick paste-like consistency</li>
+    </ol>
+</div>
+
+<h4><span class="step-number">5</span> Cooling and Solidification</h4>
+
+<div class="protocol-box">
+    <ol>
+        <li>Remove vessel from heat source OR begin cooling jacket circulation</li>
+        <li>Continue slow stirring (30 rpm) as mass cools</li>
+        <li>Allow to cool to <strong>40-45°C</strong> (mass will become semi-solid)</li>
+        <li>Transfer to trays and allow to cool to room temperature (20-25°C)</li>
+        <li>Rest for <strong>minimum 2 hours</strong> (overnight preferred) for complete solidification</li>
+    </ol>
+    <p><span class="checkpoint">CHECKPOINT</span> Mass should be solid but not brittle</p>
+</div>
+
+<div class="info-box">
+    <strong>Optional Annealing Step (Recommended):</strong>
+    <p>To stabilize lipid polymorphic form and improve shelf-life stability:</p>
+    <ol>
+        <li>After initial solidification, place solid mass in oven at <strong>50°C for 24 hours</strong></li>
+        <li>This accelerates transition to stable β-polymorph</li>
+        <li>Cool to room temperature before proceeding</li>
+    </ol>
+</div>
+
+<h4><span class="step-number">6</span> Granulation/Milling</h4>
+
+<div class="protocol-box">
+    <ol>
+        <li>Break solid mass into smaller chunks manually</li>
+        <li>Pass through oscillating granulator or conical mill</li>
+        <li>Target granule size: <strong>250-500 μm</strong></li>
+        <li>Screen through 20-mesh sieve (850 μm) to remove oversized particles</li>
+        <li>Screen through 60-mesh sieve (250 μm) to remove fines (optional)</li>
+    </ol>
+    <p><span class="checkpoint">CHECKPOINT</span> Free-flowing granules with minimal fines</p>
+</div>
+
+<h4><span class="step-number">7</span> Final Blending</h4>
+
+<div class="protocol-box">
+    <ol>
+        <li>Transfer granules to V-blender or bin blender</li>
+        <li>Add colloidal silicon dioxide</li>
+        <li>Blend for <strong>3 minutes</strong></li>
+        <li>Add magnesium stearate</li>
+        <li>Blend for <strong>2 minutes only</strong> (over-blending reduces tablet hardness)</li>
+    </ol>
+    <p><span class="checkpoint">CHECKPOINT</span> Uniform blend; good flow properties</p>
+</div>
+
+<h4><span class="step-number">8</span> Compression or Encapsulation</h4>
+
+<div class="protocol-box">
+    <p><strong>Option A: Tablets</strong></p>
+    <ul>
+        <li>Compress to target weight: <strong>250 mg ± 5%</strong></li>
+        <li>Target hardness: <strong>6-10 kP</strong> (adjust based on friability)</li>
+        <li>Tooling: 8-9 mm round, standard concave</li>
+    </ul>
+
+    <p><strong>Option B: Capsules</strong></p>
+    <ul>
+        <li>Fill Size 1 or Size 0 hard gelatin or HPMC capsules</li>
+        <li>Target fill weight: <strong>250 mg ± 5%</strong></li>
+    </ul>
+</div>
+
+<hr>
+
+<h2>5. In-Process Controls</h2>
+
+<table>
+    <tr>
+        <th>Step</th>
+        <th>Test</th>
+        <th>Specification</th>
+        <th>Frequency</th>
+    </tr>
+    <tr>
+        <td>Lipid melt</td>
+        <td>Temperature</td>
+        <td>75 ± 2°C</td>
+        <td>Continuous</td>
+    </tr>
+    <tr>
+        <td>After drug addition</td>
+        <td>Visual uniformity</td>
+        <td>No aggregates visible</td>
+        <td>Each batch</td>
+    </tr>
+    <tr>
+        <td>Granulation</td>
+        <td>Particle size (sieve)</td>
+        <td>&gt;80% between 250-850 μm</td>
+        <td>Each batch</td>
+    </tr>
+    <tr>
+        <td>Final blend</td>
+        <td>Blend uniformity</td>
+        <td>RSD &lt;5% (10 samples)</td>
+        <td>Each batch</td>
+    </tr>
+    <tr>
+        <td>Compression</td>
+        <td>Weight variation</td>
+        <td>250 mg ± 5%</td>
+        <td>Every 15 min</td>
+    </tr>
+    <tr>
+        <td>Compression</td>
+        <td>Hardness</td>
+        <td>6-10 kP</td>
+        <td>Every 15 min</td>
+    </tr>
+    <tr>
+        <td>Compression</td>
+        <td>Friability</td>
+        <td>&lt;1.0%</td>
+        <td>Start/middle/end</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>6. Finished Product Testing</h2>
+
+<h3>6.1 Release Specifications</h3>
+
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Method</th>
+        <th>Specification</th>
+    </tr>
+    <tr>
+        <td>Appearance</td>
+        <td>Visual</td>
+        <td>White to off-white tablets/capsules, uniform</td>
+    </tr>
+    <tr>
+        <td>Identification</td>
+        <td>HPLC retention time</td>
+        <td>RT matches reference standard ± 2%</td>
+    </tr>
+    <tr>
+        <td>Assay</td>
+        <td>HPLC</td>
+        <td>95.0 - 105.0% of label claim</td>
+    </tr>
+    <tr>
+        <td>Content uniformity</td>
+        <td>USP &lt;905&gt;</td>
+        <td>AV ≤ 15.0</td>
+    </tr>
+    <tr>
+        <td>Dissolution</td>
+        <td>See 6.2</td>
+        <td>See 6.2</td>
+    </tr>
+    <tr>
+        <td>Related substances</td>
+        <td>HPLC</td>
+        <td>Any individual impurity: ≤0.5%; Total: ≤2.0%</td>
+    </tr>
+    <tr>
+        <td>Water content</td>
+        <td>Karl Fischer</td>
+        <td>≤3.0%</td>
+    </tr>
+    <tr>
+        <td>Microbial limits</td>
+        <td>USP &lt;61&gt;/&lt;62&gt;</td>
+        <td>TAMC ≤1000 CFU/g; TYMC ≤100 CFU/g; Absent: E. coli</td>
+    </tr>
+</table>
+
+<h3>6.2 Dissolution Method and Specifications</h3>
+
+<div class="protocol-box">
+    <p><strong>Apparatus:</strong> USP Apparatus 2 (Paddle)</p>
+    <p><strong>Medium:</strong> 900 mL phosphate buffer pH 6.8</p>
+    <p><strong>Temperature:</strong> 37.0 ± 0.5°C</p>
+    <p><strong>Speed:</strong> 50 rpm</p>
+    <p><strong>Sampling:</strong> 1, 2, 4, 8, 12 hours</p>
+    <p><strong>Detection:</strong> UV at 285 nm or HPLC</p>
+</div>
+
+<table>
+    <tr>
+        <th>Time Point</th>
+        <th>Specification</th>
+        <th>Target (Optimal)</th>
+    </tr>
+    <tr>
+        <td>1 hour</td>
+        <td>10-30%</td>
+        <td>20-25%</td>
+    </tr>
+    <tr>
+        <td>2 hours</td>
+        <td>25-45%</td>
+        <td>30-40%</td>
+    </tr>
+    <tr>
+        <td>4 hours</td>
+        <td>40-70%</td>
+        <td>50-60%</td>
+    </tr>
+    <tr>
+        <td>8 hours</td>
+        <td>65-90%</td>
+        <td>75-85%</td>
+    </tr>
+    <tr>
+        <td>12 hours</td>
+        <td>NLT 80%</td>
+        <td>≥85%</td>
+    </tr>
+</table>
+
+<div class="warning-box">
+    <strong>Fed-State Dissolution (Additional Test):</strong>
+    <p>To assess food effect risk, also test in:</p>
+    <ul>
+        <li><strong>Medium:</strong> FeSSIF (Fed State Simulated Intestinal Fluid) or milk</li>
+        <li><strong>Acceptance:</strong> 4-hour dissolution should not exceed fasted state by more than 30%</li>
+    </ul>
+</div>
+
+<hr>
+
+<h2>7. Stability Protocol</h2>
+
+<h3>7.1 Storage Conditions</h3>
+
+<table>
+    <tr>
+        <th>Study Type</th>
+        <th>Conditions</th>
+        <th>Duration</th>
+        <th>Testing Frequency</th>
+    </tr>
+    <tr>
+        <td>Long-term</td>
+        <td>25°C ± 2°C / 60% RH ± 5%</td>
+        <td>24 months</td>
+        <td>0, 3, 6, 9, 12, 18, 24 months</td>
+    </tr>
+    <tr>
+        <td>Intermediate</td>
+        <td>30°C ± 2°C / 65% RH ± 5%</td>
+        <td>12 months</td>
+        <td>0, 3, 6, 9, 12 months</td>
+    </tr>
+    <tr>
+        <td>Accelerated</td>
+        <td>40°C ± 2°C / 75% RH ± 5%</td>
+        <td>6 months</td>
+        <td>0, 1, 2, 3, 6 months</td>
+    </tr>
+</table>
+
+<h3>7.2 Stability Testing Panel</h3>
+
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Method</th>
+        <th>Rationale</th>
+    </tr>
+    <tr>
+        <td>Appearance</td>
+        <td>Visual</td>
+        <td>Detect discoloration, surface changes</td>
+    </tr>
+    <tr>
+        <td>Assay</td>
+        <td>HPLC</td>
+        <td>Monitor drug degradation</td>
+    </tr>
+    <tr>
+        <td>Related substances</td>
+        <td>HPLC</td>
+        <td>Monitor impurity growth</td>
+    </tr>
+    <tr>
+        <td>Dissolution</td>
+        <td>USP apparatus 2</td>
+        <td>Critical - detect polymorphic changes</td>
+    </tr>
+    <tr>
+        <td>Hardness (tablets)</td>
+        <td>Hardness tester</td>
+        <td>Monitor physical stability</td>
+    </tr>
+    <tr>
+        <td>DSC</td>
+        <td>Differential scanning calorimetry</td>
+        <td>Monitor lipid polymorphism</td>
+    </tr>
+    <tr>
+        <td>XRD (optional)</td>
+        <td>X-ray diffraction</td>
+        <td>Confirm crystal form stability</td>
+    </tr>
+</table>
+
+<div class="danger-box">
+    <strong>Critical Stability Alert - Lipid Polymorphism:</strong>
+    <p>The most likely stability failure is a change in dissolution due to lipid polymorphic transitions (α → β' → β). Monitor closely:</p>
+    <ul>
+        <li>If dissolution slows by &gt;15% at accelerated conditions, investigate DSC</li>
+        <li>Annealing step (50°C/24h) during manufacturing helps prevent this</li>
+        <li>Consider adding 5-10% liquid lipid (Miglyol 812) to disrupt crystal packing if stability fails</li>
+    </ul>
+</div>
+
+<hr>
+
+<h2>8. Formulation Troubleshooting Guide</h2>
+
+<h3>8.1 Release Too Fast</h3>
+
+<table>
+    <tr>
+        <th>Symptom</th>
+        <th>Likely Cause</th>
+        <th>Solution</th>
+    </tr>
+    <tr>
+        <td>&gt;35% at 1 hour</td>
+        <td>Insufficient lipid or drug on surface</td>
+        <td>Increase Compritol to 45-50%; ensure thorough mixing</td>
+    </tr>
+    <tr>
+        <td>Burst release then plateau</td>
+        <td>Drug on granule surface</td>
+        <td>Pre-blend drug with MCC before adding to melt</td>
+    </tr>
+    <tr>
+        <td>Fast release with food/FeSSIF</td>
+        <td>Bile salt sensitivity</td>
+        <td>Add 2-3% calcium stearate or 3-5% carnauba wax</td>
+    </tr>
+    <tr>
+        <td>Batch-to-batch variability</td>
+        <td>Temperature inconsistency</td>
+        <td>Tighten process controls; use jacketed vessel</td>
+    </tr>
+</table>
+
+<h3>8.2 Release Too Slow</h3>
+
+<table>
+    <tr>
+        <th>Symptom</th>
+        <th>Likely Cause</th>
+        <th>Solution</th>
+    </tr>
+    <tr>
+        <td>&lt;10% at 1 hour</td>
+        <td>Poor wetting</td>
+        <td>Increase Poloxamer 188 to 3-4%</td>
+    </tr>
+    <tr>
+        <td>&lt;80% at 12 hours</td>
+        <td>Drug trapped in lipid</td>
+        <td>Increase PEG 6000 to 12-15%</td>
+    </tr>
+    <tr>
+        <td>Slows on stability</td>
+        <td>Polymorphic transition</td>
+        <td>Add annealing step; consider liquid lipid addition</td>
+    </tr>
+    <tr>
+        <td>Incomplete release (&lt;85% at 24h)</td>
+        <td>Excess lipid content</td>
+        <td>Reduce total lipid to 50%; increase hydrophilic fillers</td>
+    </tr>
+</table>
+
+<h3>8.3 Physical Issues</h3>
+
+<table>
+    <tr>
+        <th>Problem</th>
+        <th>Likely Cause</th>
+        <th>Solution</th>
+    </tr>
+    <tr>
+        <td>Poor flow</td>
+        <td>Excess fines or sticky granules</td>
+        <td>Increase silicon dioxide to 3%; ensure complete cooling before milling</td>
+    </tr>
+    <tr>
+        <td>Sticking to punches</td>
+        <td>Low melting lipid softening</td>
+        <td>Reduce Precirol; increase Compritol; keep compression area cool</td>
+    </tr>
+    <tr>
+        <td>Capping/lamination</td>
+        <td>Air entrapment or excess lubricant</td>
+        <td>Reduce mixing speed during melt; reduce mag stearate blend time</td>
+    </tr>
+    <tr>
+        <td>Weight variation</td>
+        <td>Poor granule flow</td>
+        <td>Improve particle size distribution; increase glidant</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>9. Scale-Up Considerations</h2>
+
+<div class="info-box">
+    <p><strong>Critical Scale-Up Parameters:</strong></p>
+    <ul>
+        <li><strong>Heat transfer:</strong> Larger batches have temperature gradients; use jacketed equipment with good mixing</li>
+        <li><strong>Mixing efficiency:</strong> Impeller design and speed must be scaled appropriately</li>
+        <li><strong>Cooling rate:</strong> Larger batches cool more slowly; may affect crystal form</li>
+        <li><strong>Granulation:</strong> Mill capacity and screen size may need adjustment</li>
+    </ul>
+</div>
+
+<table>
+    <tr>
+        <th>Batch Size</th>
+        <th>Equipment</th>
+        <th>Considerations</th>
+    </tr>
+    <tr>
+        <td>Lab (25-100g)</td>
+        <td>Hot plate + beaker or small jacketed vessel</td>
+        <td>Manual process; good for development</td>
+    </tr>
+    <tr>
+        <td>Pilot (1-5 kg)</td>
+        <td>Jacketed planetary mixer or high-shear granulator with heating</td>
+        <td>Validate process parameters; establish CPPs</td>
+    </tr>
+    <tr>
+        <td>Production (10-100 kg)</td>
+        <td>Large-scale melt granulator (e.g., Lödige) or twin-screw extruder</td>
+        <td>May switch to continuous processing; full process validation required</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>10. Preclinical Testing Recommendations</h2>
+
+<h3>10.1 Dog Pharmacokinetic Study (Recommended Before Human Trials)</h3>
+
+<div class="protocol-box">
+    <p><strong>Objective:</strong> Characterize PK profile and food effect in relevant animal model</p>
+    <p><strong>Species:</strong> Beagle dogs (n=6, crossover design)</p>
+    <p><strong>Dose:</strong> 2-3 mg/kg (approximately 20-30 mg per dog)</p>
+    <p><strong>Arms:</strong></p>
+    <ol>
+        <li>ER lipid matrix formulation - fasted</li>
+        <li>ER lipid matrix formulation - fed (high-fat meal)</li>
+        <li>IR minoxidil solution - fasted (reference)</li>
+    </ol>
+    <p><strong>Sampling:</strong> Pre-dose, 0.5, 1, 2, 3, 4, 6, 8, 12, 24 hours</p>
+    <p><strong>Analysis:</strong> Validated LC-MS/MS method for minoxidil in plasma</p>
+    <p><strong>Endpoints:</strong> Cmax, Tmax, AUC0-24, food effect ratio</p>
+</div>
+
+<div class="success-box">
+    <strong>Success Criteria:</strong>
+    <ul>
+        <li>ER formulation shows delayed Tmax (≥2 hours) vs. IR solution</li>
+        <li>ER formulation shows reduced Cmax (≥30% lower) vs. IR at equivalent dose</li>
+        <li>Food effect on Cmax is &lt;2-fold</li>
+        <li>AUC is ≥70% of IR solution (acceptable bioavailability)</li>
+    </ul>
+</div>
+
+<hr>
+
+<h2>11. Documentation and Batch Records</h2>
+
+<p>For each batch, document:</p>
+
+<ul>
+    <li>Batch number and date</li>
+    <li>All component weights (target and actual)</li>
+    <li>Temperature log during melt granulation</li>
+    <li>Cooling time and conditions</li>
+    <li>Granule particle size distribution</li>
+    <li>Blend uniformity results</li>
+    <li>Compression/encapsulation parameters</li>
+    <li>In-process test results</li>
+    <li>Finished product test results</li>
+    <li>Any deviations and corrective actions</li>
+    <li>Signature of responsible pharmacist/scientist</li>
+</ul>
+
+<hr>
+
+<h2>12. Appendices</h2>
+
+<h3>Appendix A: HPLC Method for Minoxidil Assay</h3>
+
+<table>
+    <tr><th>Parameter</th><th>Condition</th></tr>
+    <tr><td>Column</td><td>C18, 150 × 4.6 mm, 5 μm</td></tr>
+    <tr><td>Mobile phase</td><td>Acetonitrile : 0.1% phosphoric acid (25:75 v/v)</td></tr>
+    <tr><td>Flow rate</td><td>1.0 mL/min</td></tr>
+    <tr><td>Detection</td><td>UV 285 nm</td></tr>
+    <tr><td>Injection volume</td><td>20 μL</td></tr>
+    <tr><td>Column temperature</td><td>30°C</td></tr>
+    <tr><td>Run time</td><td>10 minutes</td></tr>
+    <tr><td>Retention time</td><td>~5 minutes</td></tr>
+</table>
+
+<h3>Appendix B: Alternative Formulations for Troubleshooting</h3>
+
+<p><strong>Slow-Release Variant</strong> (if release too fast):</p>
+<table>
+    <tr><th>Change</th><th>Amount</th></tr>
+    <tr><td>Increase Compritol 888 ATO</td><td>50% (from 40%)</td></tr>
+    <tr><td>Add carnauba wax</td><td>3%</td></tr>
+    <tr><td>Reduce PEG 6000</td><td>5% (from 8%)</td></tr>
+</table>
+
+<p><strong>Fast-Release Variant</strong> (if release too slow):</p>
+<table>
+    <tr><th>Change</th><th>Amount</th></tr>
+    <tr><td>Increase PEG 6000</td><td>15% (from 8%)</td></tr>
+    <tr><td>Increase Poloxamer 188</td><td>4% (from 2%)</td></tr>
+    <tr><td>Reduce total lipid</td><td>45% (from 54%)</td></tr>
+</table>
+
+<hr>
+
+<div class="info-box">
+    <p><strong>Document Control:</strong></p>
+    <p>Version 1.0 | February 5, 2026</p>
+    <p>This protocol is for development and compounding use. Consult with qualified pharmaceutical scientists and regulatory experts before proceeding to clinical use.</p>
+</div>
+
+</body>
+</html>
