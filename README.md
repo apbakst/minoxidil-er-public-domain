@@ -1,4 +1,4 @@
-# Extended-Release Minoxidil Formulations - Public Domain Dedication
+# Extended-Release Minoxidil Formulations - Prior Art Disclosure
 
 ## DEFENSIVE PUBLICATION NOTICE
 
@@ -15,8 +15,8 @@
 This technical disclosure is being made publicly available to:
 
 1. **Establish prior art** under 35 U.S.C. 102(a)(1)
-2. **Dedicate these formulations to the public domain**
-3. **Prevent any party from obtaining patent protection** on the specific formulations, compositions, and methods described herein
+2. **Make these formulations freely available to the public**
+3. **Prevent third parties from obtaining patent protection** on the specific formulations, compositions, and methods described herein
 
 ---
 
@@ -40,14 +40,13 @@ All formulations include:
 
 ---
 
-## DEDICATION TO PUBLIC DOMAIN
+## PUBLIC DISCLOSURE & RIGHTS
 
-**These formulations are hereby irrevocably dedicated to the public domain.**
+**These formulations are hereby disclosed to the public domain as prior art.**
 
-- No patent rights are claimed or reserved by the discloser
-- Any person or entity is free to use, manufacture, sell, and commercialize these formulations
-- No license or royalty is required
-- The discloser expressly waives any right to seek patent protection on these formulations
+- Any person or entity is free to use, manufacture, sell, and commercialize these formulations without license or royalty
+- This disclosure constitutes prior art effective February 4, 2026
+- The discloser reserves all rights permitted under applicable patent law, including rights under 35 U.S.C. 102(b)(1)(A) (1-year inventor grace period)
 
 ---
 
@@ -79,7 +78,9 @@ This public GitHub repository, along with the Discord post and other archives, c
 - A "printed publication" under patent law
 - Material "otherwise available to the public"
 
-**Any patent application filed after February 4, 2026 covering these specific formulations will face this disclosure as prior art.**
+**Effect on Third Parties:** Any patent application filed by third parties after February 4, 2026 covering these specific formulations will face this disclosure as prior art and should be rejected or invalidated.
+
+**Effect on Discloser:** Under 35 U.S.C. 102(b)(1)(A), the discloser retains a 1-year grace period (until February 4, 2027) during which this disclosure is not prior art against the discloser's own patent applications.
 
 ---
 
@@ -110,11 +111,13 @@ This is a technical disclosure for prior art purposes. It is not medical advice.
 
 ## LICENSE
 
-This work is dedicated to the **Public Domain** under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+**Copyright:** This written work (documentation, text, formatting) is dedicated to the **Public Domain** under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, the author has waived all copyright and related or neighboring rights to the written content of this work.
+
+**Patent Rights:** As noted in CC0 Section 4(a), "No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document." The discloser reserves patent rights as permitted under 35 U.S.C. 102(b)(1)(A).
 
 ---
 
