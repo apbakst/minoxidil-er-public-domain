@@ -54,9 +54,9 @@ All formulations include:
 
 | Platform | Date | Evidence |
 |----------|------|----------|
-| Discord (Server ID: 1102313145575419996, #research channel) | February 4, 2026 | [Screenshot](./proof/discord-post-2026-02-04.png) |
-| GitHub (this repository) | February 4, 2026 | Git commit history |
-| Archive.org | February 4, 2026 | [Wayback Machine link - pending] |
+| Discord (Server ID: 1102313145575419996, #research channel) | February 4, 2026 | [Message IDs](./proof/DISCORD_EVIDENCE.md) |
+| GitHub (this repository) | February 4, 2026 | [Git commit history](https://github.com/apbakst/minoxidil-er-public-domain/commits/main) |
+| Archive.org (Wayback Machine) | February 5, 2026 | [Archived README](https://web.archive.org/web/20260205041559/https://raw.githubusercontent.com/apbakst/minoxidil-er-public-domain/main/README.md) |
 
 ---
 
@@ -121,4 +121,4 @@ To the extent possible under law, the author has waived all copyright and relate
 
 ---
 
-*Last updated: February 4, 2026*
+*Last updated: February 5, 2026*
