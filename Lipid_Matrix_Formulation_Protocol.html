@@ -661,6 +661,207 @@
     </ul>
 </div>
 
+<h3>6.3 Dissolution Media Summary</h3>
+
+<table>
+    <tr>
+        <th>Medium</th>
+        <th>Composition</th>
+        <th>Purpose</th>
+        <th>When to Run</th>
+    </tr>
+    <tr>
+        <td><strong>Fasted (Primary)</strong></td>
+        <td>Phosphate buffer pH 6.8, 900 mL</td>
+        <td>Standard release profile</td>
+        <td>Every batch - this is your primary spec</td>
+    </tr>
+    <tr>
+        <td><strong>Fed State</strong></td>
+        <td>FeSSIF, or pH 6.8 + 0.5% SLS, or whole milk</td>
+        <td>Food effect assessment (HARD GATE)</td>
+        <td>After fasted passes - determines if formulation is viable</td>
+    </tr>
+    <tr>
+        <td><strong>Acidic (Optional)</strong></td>
+        <td>0.1N HCl (pH 1.2)</td>
+        <td>Gastric stability check</td>
+        <td>Once during development to confirm pH-independent release</td>
+    </tr>
+</table>
+
+<h3>6.4 Dissolution Results Decision Matrix</h3>
+
+<div class="info-box">
+    <strong>How to Read Your Results:</strong>
+    <p>The lab will report % drug released at each timepoint. Use the tables below to diagnose issues and determine formulation adjustments.</p>
+</div>
+
+<h4>1-Hour Readout (Early Release - Indicates Burst Behavior)</h4>
+<table>
+    <tr>
+        <th>Your Result</th>
+        <th>Diagnosis</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td><strong>&lt;10%</strong></td>
+        <td>Too slow - poor wetting</td>
+        <td>Increase Poloxamer 188 from 1.5% → 3-4%</td>
+    </tr>
+    <tr style="background-color: #e6f4ea;">
+        <td><strong>10-25%</strong></td>
+        <td>✓ ON TARGET</td>
+        <td>Proceed to next timepoint evaluation</td>
+    </tr>
+    <tr>
+        <td><strong>26-35%</strong></td>
+        <td>Slightly fast</td>
+        <td>Minor tweak: increase Compritol by 5%</td>
+    </tr>
+    <tr>
+        <td><strong>&gt;35%</strong></td>
+        <td>Way too fast - burst release</td>
+        <td>Major reformulation: Compritol to 50%, check drug distribution in granules</td>
+    </tr>
+</table>
+
+<h4>4-Hour Readout (Mid-Release - Core of the Profile)</h4>
+<table>
+    <tr>
+        <th>Your Result</th>
+        <th>Diagnosis</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td><strong>&lt;35%</strong></td>
+        <td>Too slow - drug trapped</td>
+        <td>Increase PEG 6000 from 5% → 8-10%</td>
+    </tr>
+    <tr style="background-color: #e6f4ea;">
+        <td><strong>35-55%</strong></td>
+        <td>✓ ON TARGET</td>
+        <td>Proceed to next timepoint evaluation</td>
+    </tr>
+    <tr>
+        <td><strong>&gt;55%</strong></td>
+        <td>Too fast</td>
+        <td>Increase Compritol by 5%, reduce PEG by 2%</td>
+    </tr>
+</table>
+
+<h4>12-Hour Readout (Completeness - Ensures Full Dose Delivery)</h4>
+<table>
+    <tr>
+        <th>Your Result</th>
+        <th>Diagnosis</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td><strong>&lt;75%</strong></td>
+        <td>Incomplete release - drug permanently trapped</td>
+        <td>Increase PEG 6000 to 12-15%; consider reducing total lipid to 50%</td>
+    </tr>
+    <tr style="background-color: #e6f4ea;">
+        <td><strong>75-95%</strong></td>
+        <td>✓ ON TARGET</td>
+        <td>Formulation acceptable - proceed to fed-state testing</td>
+    </tr>
+    <tr>
+        <td><strong>&gt;95% by 8 hours</strong></td>
+        <td>Releasing too fast overall</td>
+        <td>Increase Compritol to 50%+; may be releasing as fast as IR</td>
+    </tr>
+</table>
+
+<h4>Fed vs. Fasted Comparison (HARD GATE - Pass/Fail)</h4>
+<table>
+    <tr>
+        <th>Fed 4h ÷ Fasted 4h</th>
+        <th>Diagnosis</th>
+        <th>Action</th>
+    </tr>
+    <tr style="background-color: #e6f4ea;">
+        <td><strong>≤1.3 (≤130%)</strong></td>
+        <td>✓ ACCEPTABLE food effect</td>
+        <td>Proceed to human PK testing</td>
+    </tr>
+    <tr style="background-color: #fff3cd;">
+        <td><strong>1.3-1.5 (130-150%)</strong></td>
+        <td>BORDERLINE</td>
+        <td>Consider adding 2% calcium stearate; retest</td>
+    </tr>
+    <tr style="background-color: #fce8e6;">
+        <td><strong>&gt;1.5 (&gt;150%)</strong></td>
+        <td>✗ FAIL - HARD GATE</td>
+        <td><strong>PIVOT TO MUPS BACKUP</strong> - lipid matrix unsuitable</td>
+    </tr>
+</table>
+
+<h4>Batch Variability Check (Quality Indicator)</h4>
+<table>
+    <tr>
+        <th>Standard Deviation (any timepoint)</th>
+        <th>Interpretation</th>
+        <th>Action</th>
+    </tr>
+    <tr style="background-color: #e6f4ea;">
+        <td><strong>&lt;5%</strong></td>
+        <td>Excellent uniformity</td>
+        <td>Process is well-controlled</td>
+    </tr>
+    <tr>
+        <td><strong>5-10%</strong></td>
+        <td>Acceptable</td>
+        <td>Monitor in future batches</td>
+    </tr>
+    <tr style="background-color: #fff3cd;">
+        <td><strong>10-15%</strong></td>
+        <td>Marginal</td>
+        <td>Check blend uniformity, extend mixing time</td>
+    </tr>
+    <tr style="background-color: #fce8e6;">
+        <td><strong>&gt;15%</strong></td>
+        <td>Unacceptable</td>
+        <td>Rework process - likely incomplete mixing or granulation issue</td>
+    </tr>
+</table>
+
+<h3>6.5 Common Dissolution Patterns & Fixes</h3>
+
+<div class="protocol-box">
+    <h4>Pattern A: "Burst then plateau"</h4>
+    <p><strong>Example:</strong> 1h: 40% → 4h: 55% → 8h: 62% → 12h: 68%</p>
+    <p><strong>Problem:</strong> Drug sitting on granule surface, not embedded in lipid matrix</p>
+    <p><strong>Fix:</strong> Pre-blend minoxidil with MCC powder (1:5 ratio) before adding to lipid melt. Mix at 75°C for 5+ minutes. Scrape vessel walls.</p>
+</div>
+
+<div class="protocol-box">
+    <h4>Pattern B: "Slow start, never catches up"</h4>
+    <p><strong>Example:</strong> 1h: 5% → 4h: 25% → 8h: 45% → 12h: 60%</p>
+    <p><strong>Problem:</strong> Matrix too hydrophobic, water can't penetrate</p>
+    <p><strong>Fix (try in order):</strong></p>
+    <ol>
+        <li>Increase Poloxamer 188 to 3-4% (improves wetting)</li>
+        <li>If still slow: Increase PEG 6000 to 10-12% (creates pores)</li>
+        <li>If still slow: Reduce Compritol to 40%, increase MCC filler</li>
+    </ol>
+</div>
+
+<div class="protocol-box">
+    <h4>Pattern C: "Good fasted, disaster with food"</h4>
+    <p><strong>Example:</strong> Fasted 4h: 45% | Fed 4h: 78% (ratio = 1.73)</p>
+    <p><strong>Problem:</strong> Bile salts in fed state accelerating lipid erosion</p>
+    <p><strong>Fix:</strong> Add 2-3% calcium stearate OR 3-5% carnauba wax. Both resist bile salt penetration. Reduce Precirol (lower melting point lipid) if needed.</p>
+</div>
+
+<div class="protocol-box">
+    <h4>Pattern D: "Good at T0, slow after storage"</h4>
+    <p><strong>Example:</strong> T0 4h: 48% | 1-month accelerated 4h: 32%</p>
+    <p><strong>Problem:</strong> Lipid polymorphic transition (metastable α → stable β form)</p>
+    <p><strong>Fix:</strong> Add annealing step to manufacturing: hold at 50°C for 24h after granulation to pre-convert to stable polymorph before milling.</p>
+</div>
+
 <hr>
 
 <h2>7. Stability Protocol</h2>
